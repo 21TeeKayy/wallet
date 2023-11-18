@@ -76,7 +76,7 @@
                 app:cornerRadius="32dp"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:text="Login"
+                android:text="PAY"
                 android:textColor="@color/white" />
 
             <View
