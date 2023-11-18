@@ -1,0 +1,16 @@
+buildscript {
+    ext {
+        buildToolsVersion = '33.0.0'
+    }
+    // configurations for the build script
+    // repositories, dependencies, etc.
+}
+
+plugins {
+    id 'com.android.application' version '7.2.1' apply false
+    id 'com.android.library' version '7.2.1' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
